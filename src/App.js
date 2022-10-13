@@ -5,8 +5,17 @@ import CTA from './CTA';
 function App() {
   return (
     <div >
-        <Navbar backgroundColor="firebrick" />
-        <Button backgroundColor="blue" text="Click me!" />
+       <CTA>
+            <h1>This is an important CTA</h1>
+            <button>Click me now!</button>
+       </CTA>
+       <CTA>
+        <form>
+          <input type="email" placeholder="Enter Email"/>
+          <br />
+          <button>Submit</button>
+        </form>
+       </CTA>
     </div>
   );
 }

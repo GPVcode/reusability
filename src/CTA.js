@@ -1,9 +1,9 @@
 import React from "react";
 
-function CTA(){
+function CTA(props){
     return (
-        <div>
-            <h1>This is an important CTA</h1>
+        <div className="border">
+            {props.children}
         </div>
     )
 }
